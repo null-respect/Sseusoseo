@@ -1,0 +1,80 @@
+
+html { background: url('../image/background2.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  color: #0849E8;
+}
+.card{
+  background-color: #ffffff;
+  text-align: center;
+}
+.menu{
+  display: inline;
+
+  font-weight: bold;
+  padding-left: 50px;
+  font-size: 36px;
+}
+#menu-select{
+  color: #2AFFEC;
+}
+#menu2{
+  text-align: right;
+  padding-top:30px;
+  padding-right:185px;
+  color: #0108FF;
+}
+#side{
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+}
+#side1{
+  text-align: left;
+  margin: 0px;
+  flex: 1;
+  overflow:auto;
+}
+
+#side2{
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  color: blue;
+}
+.menuBtn{
+  color: blue;
+  margin-top: 20px;
+  margin-bottom:0px;
+  font-size: 18px;
+}
+#right{
+  height: 770px;
+  display: flex;
+  text-align: left;
+}
+#right1{
+  flex: 1;
+  padding: 20px 50px 0px 50px;
+}
+.question{
+  float:right;
+  font-size:15px;
+  background-color:#0C93FF;
+  padding:8px 15px 8px 15px;
+  color: white;
+  box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2),
+   0px 6px 6px 0px rgba(0,0,0,0.2);
+}
+.collection .collection-item.active{
+  background-color: #14C2E8;
+}
+#error{
+  color: #DE264C;
+}
